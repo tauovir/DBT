@@ -1,0 +1,29 @@
+https://github.com/nordquant/complete-dbt-bootcamp-zero-to-hero
+
+virtaulenv dbt_env
+dbt_env\Script\activate
+pip install dbt-snowflake==1.5.0
+
+
+dbt-command:
+dbt
+dbt init dbtlearn # create project
+Profile dbtlearn written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+
+dbt run
+dbt run --full-refresh  : tu full refresh
+---------------Seed-------
+dbt seed
+----------------Compile all sql---------
+dbt compile
+-------------------Snapshot fot Type2
+dbt snapshot
+------------------Test------------
+dbt test
+
+dbt test --select listings_cleansed
+------------Documents---------
+ dbt docs generate
+ dbt docs serve
+
+ -----------------Analysy, Hooks, dashboard-------------

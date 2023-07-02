@@ -1,0 +1,16 @@
+dbtlearn:
+  outputs:
+    dev:
+      account: kj70744.ap-southeast-1
+      database: AIRBNB
+      password: dbtPassword123
+      role: transform
+      schema: DEV
+      threads: 1
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
+
+  Profile dbtlearn written to C:\Users\LENOVO\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+
