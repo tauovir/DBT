@@ -12,6 +12,7 @@ Profile dbtlearn written to C:\Users\LENOVO\.dbt\profiles.yml using target's pro
 
 dbt run
 dbt run --full-refresh  : tu full refresh
+dbt debug --config-dir
 ---------------Seed-------
 dbt seed
 ----------------Compile all sql---------
